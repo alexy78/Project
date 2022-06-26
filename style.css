@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+}
+.changecity {
+  position: static;
+}
+
+.today {
+  transition: ease-in-out;
+  margin: 0px 0px 0px 0px;
+}
+.today:hover {
+  background-color: #9ba3eb;
+}
+.col-2 {
+  text-align: center;
+  font-family: monospace;
+  padding: 5px;
+  font-size: 17px;
+}
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+h3 {
+  text-align: center;
+  font-family: sans-serif;
+}
+.tuesday {
+  text-align: left;
+}
+p {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.form-control {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1a64d6;
+  font-size: 14px;
+  color: white;
+  font: message-box;
+  border: 5px solid #1a64d6;
+  border-radius: 30px;
+  box-shadow: 2px 9px 5px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  color: #1a64d6;
+  background-color: transparent;
+}
