@@ -63,7 +63,7 @@ button:hover {
   color: #1a64d6;
   background-color: transparent;
 }
-a {
+.link {
   text-align: center;
   color: black;
 }
